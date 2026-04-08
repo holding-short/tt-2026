@@ -1,0 +1,44 @@
+{
+  "hero": {
+    "title": "ADUSA Ping Pong Madness 2026",
+    "subtitle": "Know the game. Win the game.",
+    "emoji": "📋"
+  },
+  "rules": [
+    {
+      "title": "Match Format",
+      "emoji": "⚔️",
+      "content": "It's on <span class=\"gold-text\">you</span> to make it happen! Coordinate with your opponent and get it done.",
+      "items": [
+        "Self-scheduled &amp; self-reported (except Semis &amp; Finals)",
+        "Each round has a <strong>tentative weekly deadline</strong> &mdash; don't sleep on it!",
+        "No-shows after organizer reminders = <span class=\"elim\">automatic elimination</span> 🚫"
+      ]
+    },
+    {
+      "title": "Game Rules",
+      "emoji": "🎮",
+      "items": [
+        "Matches are <strong>Best of 3 games</strong>",
+        "Each game played to <strong>11 points</strong>",
+        "Must win by <strong>2 points</strong> &mdash; Deuce rules apply 🔥",
+        "Serve alternates every <strong>2 points</strong>"
+      ]
+    },
+    {
+      "title": "Equipment &amp; Setup",
+      "emoji": "🏸",
+      "items": [
+        "Paddles &amp; balls <strong>provided</strong> &mdash; no excuses!",
+        "Bring your own gear if you want that edge 🎯",
+        "Players set up <strong>and</strong> reset the table"
+      ]
+    },
+    {
+      "title": "Reporting Results",
+      "emoji": "📣",
+      "content": "Once the battle is over &mdash; 📧 <strong>send a quick note to Viramya</strong> with the result.<br>Winner, loser, scores. Don't leave us guessing! 🏃"
+    }
+  ],
+  "footer": "Good luck, have fun, and may your serves be unreturn-able. 🏓💨"
+}
