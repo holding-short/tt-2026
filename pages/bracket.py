@@ -1,6 +1,8 @@
 import streamlit as st
 import streamlit.components.v1 as components
 
+module_url = st.secrets.get("challonge_module_url", "https://challonge.com/v0wwg83d/module")
+
 # Hero banner
 st.markdown("""
 <div style="
@@ -34,15 +36,15 @@ st.markdown("""
 
 # Full-bleed iframe
 components.html(
-    """
+    f"""
     <style>
-        body { margin: 0; background: transparent; }
-        iframe {
+        body {{ margin: 0; background: transparent; }}
+        iframe {{
             border-radius: 10px;
             box-shadow: 0 4px 24px rgba(0,0,0,0.5);
-        }
+        }}
     </style>
-    <iframe src="https://challonge.com/v0wwg83d/module"
+    <iframe src="{module_url}"
             width="100%" height="960"
             frameborder="0" scrolling="auto" allowtransparency="true">
     </iframe>
