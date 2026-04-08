@@ -1,7 +1,7 @@
 import streamlit as st
 import streamlit.components.v1 as components
 
-module_url = st.secrets.get("challonge_module_url", "https://challonge.com/v0wwg83d/module")
+module_url = st.secrets.get("challonge_module_url")
 
 # Hero banner
 st.markdown("""
@@ -33,6 +33,8 @@ st.markdown("""
     </div>
 </div>
 """, unsafe_allow_html=True)
+
+st.markdown("The brackets view is fully scrollable", unsafe_allow_html=True)
 
 # Full-bleed iframe
 components.html(
